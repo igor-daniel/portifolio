@@ -49,3 +49,18 @@ header {
   font-size: 25px;
   color: #FFF;
 }
+
+@media(max-width: 500px) {
+  .logo {
+    width: 100px;
+    margin: 0 0 0 20px;
+  }
+
+  .hamburguer {
+    margin-right: 20px;
+  }
+
+  .menu {
+    right: 20px;
+  }
+}
