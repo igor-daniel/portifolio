@@ -60,3 +60,29 @@ a {
 .image img {
   width: 470px;
 }
+
+@media(max-width: 500px) {
+  .conteudo {
+    flex-direction: column;
+  }
+
+  .main-sec h1 {
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .main-sec p {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+
+  .links a {
+    font-size: 18px;
+    padding: 0 20px 0 0;
+  }
+
+  .image img {
+    width: 400px;
+  }
+
+}
