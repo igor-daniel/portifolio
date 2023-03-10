@@ -13,7 +13,7 @@ export const Main = () => {
               <li><a href="https://github.com/igor-daniel">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/igor-daniel-8bbb74216/">Linkedln</a></li>
               <li><a href="https://www.instagram.com/igordaniel5/">Instagram</a></li>
-              <li><a href="curriculo.html">Currículo</a></li>
+              <li><a href="../Curriculo/curriculo.html">Currículo</a></li>
             </ul>
           </section>
           <section className="image" data-tilt="">
