@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.4f6591fe.css",
-    "main.js": "/portifolio/static/js/main.6547a4ea.js",
+    "main.js": "/portifolio/static/js/main.21b714b0.js",
     "static/js/787.be55e6d0.chunk.js": "/portifolio/static/js/787.be55e6d0.chunk.js",
     "static/media/fotoEdita.png": "/portifolio/static/media/fotoEdita.eec087ad425a9c540a8f.png",
     "static/media/geradorConselho.png": "/portifolio/static/media/geradorConselho.3e7d9a0e6a13e9959af7.png",
     "static/media/snap.png": "/portifolio/static/media/snap.551c8ee04271b0c203ca.png",
+    "static/media/printImc.png": "/portifolio/static/media/printImc.5556d89e1d708d44d56f.png",
     "static/media/Programmer-cuate.svg": "/portifolio/static/media/Programmer-cuate.28c045e8bdb30d3941a7dc635d9451f1.svg",
     "static/media/ID.png": "/portifolio/static/media/ID.a6be2857708c292823e9.png",
     "static/media/react.svg": "/portifolio/static/media/react.cea84ad26d56411e6e5bc807a6cb4216.svg",
@@ -17,11 +18,11 @@
     "static/media/html.svg": "/portifolio/static/media/html.e5fd4bb26e2fb3905fd8577b2853549b.svg",
     "static/media/css.svg": "/portifolio/static/media/css.228dbaebba96c49ad1ba8cb1288bc7da.svg",
     "main.4f6591fe.css.map": "/portifolio/static/css/main.4f6591fe.css.map",
-    "main.6547a4ea.js.map": "/portifolio/static/js/main.6547a4ea.js.map",
+    "main.21b714b0.js.map": "/portifolio/static/js/main.21b714b0.js.map",
     "787.be55e6d0.chunk.js.map": "/portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f6591fe.css",
-    "static/js/main.6547a4ea.js"
+    "static/js/main.21b714b0.js"
   ]
 }
