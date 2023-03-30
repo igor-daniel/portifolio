@@ -3,6 +3,7 @@ import Pgerador from './img/geradorConselho.png'
 import snap from './img/snap.png'
 import iconGit from './img/github.png'
 import iconGlobe from './img/globe.png'
+import calcImc from './img/printImc.png'
 
 export const Projetos = ()=>{
   return(
@@ -56,6 +57,34 @@ export const Projetos = ()=>{
             
           </a>
           <a href="https://github.com/igor-daniel/single-page">
+            <div className="txt">
+            <img src={iconGit} alt="" />
+            <p>Code</p>
+            </div>
+            
+          </a>
+        </div>
+      </div>
+
+
+      <div className="card">
+        <div className="img">
+          <img src={calcImc} alt="" />
+        </div>
+        <div className="text">
+          <h4>Calculadora de IMC</h4>
+          <p>Colocando seu peso e sua altura obtenha seu indice de massa corporal.
+          </p>
+        </div>
+        <div className="btns">
+          <a href="https://kaleidoscopic-malasada-947d5e.netlify.app/">
+            <div className="txt">
+            <img src={iconGlobe} alt="" />
+            <p>Site</p>
+            </div>
+            
+          </a>
+          <a href="https://github.com/igor-daniel/Calculadora-IMC-react">
             <div className="txt">
             <img src={iconGit} alt="" />
             <p>Code</p>
