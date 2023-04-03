@@ -50,8 +50,12 @@ header {
   padding: 20px;
 }
 
-.menu a {
+a {
   text-decoration: none;
+}
+
+.menu a {
+
   font-size: 25px;
   color: #FFF;
 }
