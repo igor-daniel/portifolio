@@ -2,7 +2,6 @@ import React from "react";
 import logo from './ID.png'
 import menuHamburguer from './hambuguer.png'
 import './header.css'
-
 export const Header = () => {
   const setMenu = () => {
     let menu = document.querySelector('nav');
@@ -20,10 +19,10 @@ export const Header = () => {
       </div>
       <nav className="menu">
         <ul>
-          <li>Sobre mim</li>
-          <li>Skills</li>
-          <li>Projetos</li>
-          <li>Currículo</li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="./curriculo.pdf" >Currículo</a></li>
         </ul>
       </nav>
     </header>

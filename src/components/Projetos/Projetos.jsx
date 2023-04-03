@@ -8,7 +8,7 @@ import calcImc from './img/printImc.png'
 export const Projetos = ()=>{
   return(
     <>
-    <section className="projetos">
+    <section id='projetos' className="projetos">
     <div className="head">
       <h1>Projetos</h1>
     </div>

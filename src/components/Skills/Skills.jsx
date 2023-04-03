@@ -15,7 +15,7 @@ export const Skills = ()=>{
   });
   return (
     <>
-    <section className='limite'>
+    <section id='skills' className='limite'>
     <div className="skill-head">
       <h1>Skills</h1>
     </div>

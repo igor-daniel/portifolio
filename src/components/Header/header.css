@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -46,6 +48,10 @@ header {
 
 .menu ul li {
   padding: 20px;
+}
+
+.menu a {
+  text-decoration: none;
   font-size: 25px;
   color: #FFF;
 }

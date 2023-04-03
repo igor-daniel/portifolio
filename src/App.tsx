@@ -7,7 +7,6 @@ import { Projetos } from './components/Projetos/Projetos'
 import { Footer } from './components/Footer/Footer'
 
 
-
 function App() {
   return (
     <>
