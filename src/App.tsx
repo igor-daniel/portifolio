@@ -7,9 +7,13 @@ import { Projetos } from './components/Projetos/Projetos'
 import { Footer } from './components/Footer/Footer'
 
 
+
 function App() {
   return (
     <>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700;900&display=swap');
+      </style>
       <Header />
       <Main />
       <Sobre />

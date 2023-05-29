@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './ID.png'
+import logo from './Foto-icon.svg'
 import menuHamburguer from './hambuguer.png'
 import './header.css'
 export const Header = () => {
@@ -12,17 +12,18 @@ export const Header = () => {
     <header>
       <div className="logo">
         <img src={logo} alt="" />
+        <p>Igor Daniel</p>
       </div>
 
-      <div onClick={setMenu} className="hamburguer">
+      {/* <div onClick={setMenu} className="hamburguer">
         <img src={menuHamburguer} alt="" />
-      </div>
+      </div> */}
       <nav className="menu">
         <ul>
-          <li><a href="#sobre">Sobre mim</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
           <li><a href="#projetos">Projetos</a></li>
-          <li><a href="./curriculo.pdf" >Currículo</a></li>
+          <li><a href="./curriculo.pdf" >Contato</a></li>
         </ul>
       </nav>
     </header>

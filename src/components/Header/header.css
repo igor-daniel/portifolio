@@ -3,20 +3,37 @@
   padding: 0;
 }
 
-
+p,
+a,
+h1,
+h2 {
+  font-family: Poppins;
+  text-decoration: none;
+}
 
 header {
+  background-color: #faf7ff;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  margin: 0 0 0 90px;
-  width: 110px;
+  padding: 20px 0 20px 90px;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
+  width: 60px;
   max-width: 100%;
+  margin-right: 10px;
+}
+
+.logo p {
+  font-size: 1.5rem;
+  color: #1d0351;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .hamburguer {
@@ -27,38 +44,39 @@ header {
 }
 
 .menu {
-  display: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  margin-right: 90px;
+}
+
+.menu li {
+  padding: 20px;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.menu a {
+  color: #1d0351;
+  text-transform: uppercase;
+}
+
+/* 
+.menu {
   width: 220px;
   background-color: #5f15ed;
   position: absolute;
   right: 80px;
   top: 100px;
   border-radius: 20px;
-}
+} */
 
-.block {
+/* .block {
   display: block;
-}
-
-.menu ul {
-  display: flex;
-  /* margin-top: 30px; */
-  flex-direction: column;
-}
-
-.menu ul li {
-  padding: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.menu a {
-
-  font-size: 25px;
-  color: #FFF;
-}
+} */
 
 @media(max-width: 500px) {
   .logo {
