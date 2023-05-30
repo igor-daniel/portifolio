@@ -1,9 +1,9 @@
 // import js from './js.svg'
 import './skills.css'
+import adereco from '../sobre/adereço.svg'
 import react from './svg skils/react.svg'
 import typescript from './svg skils/typescript.svg'
-import js from './svg skils/js.svg'
-import boot from './svg skils/bootstrap.svg'
+import js from './svg skils/javascript.svg'
 import css from './svg skils/css.svg'
 import html from './svg skils/html.svg'
 import git from './svg skils/git.svg'
@@ -15,10 +15,12 @@ export const Skills = ()=>{
   });
   return (
     <>
-    <section id='skills' className='limite'>
-    <div className="skill-head">
-      <h1>Skills</h1>
-    </div>
+    <section id='skills' className='bg'>
+      <div  className='limite'>
+      <div className="sec-tittle">
+            <img src={adereco} alt="" />
+            <h2>Habilidades</h2>
+          </div>
     <div className="skill-body"> 
     
     <div className='tool'>
@@ -35,10 +37,6 @@ export const Skills = ()=>{
       <span className='tool-text'>JAVASCRIPT</span>
     </div>
     <div className='tool'>
-      <img id='rea' src={boot} alt="React" />
-      <span className='tool-text'>BOOTSTRAP</span>
-    </div>
-    <div className='tool'>
       <img id='rea' src={css} alt="React" />
       <span className='tool-text'>CSS</span>
     </div>
@@ -52,6 +50,8 @@ export const Skills = ()=>{
     </div>
     </div>
 
+      </div>
+    
     </section>
    
     </>

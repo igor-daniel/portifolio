@@ -1,24 +1,25 @@
 import './sobre.css'
-import Foto from './fotoEdita.png'
+import Foto from './FotoSobre.svg'
+import adereco from './adereço.svg'
 export const Sobre = () => {
   return (
     <>
-      <section id="sobre" className="sobre dark">
+      <section id="sobre" className="sec-sobre bg">
         <div className="limite ">
           <div className="sec-tittle">
-            <h2>Sobre mim</h2>
+            <img src={adereco} alt="" />
+            <h2>Sobre</h2>
           </div>
           <div className="sec-body sobre-content">
             <div className="sobre-img">
               <img src={Foto} alt="Foto de Igor" />
+              <a href="#" className='botao'>Currículo</a>
             </div>
             <div className="sobre-info--historia">
-              <p>Hello me chamo Igor Daniel tenho 21 anos, moro no Rio de Janeiro. Sou universitário e estou cursando Análise e desenvolvimento de sistemas. <br /> Sou entusiasta e apaixonado por tecnologia e estou
-                em busca da vaga de desenvolvedor front and junior. <br />
-                Atualmente atuo como militar no Exército Brasileiro e busco
-                transicionar minha carreira em direção ao que eu, de fato, tenho prazer, talento e vocação em fazer.
-              </p>
-              <p className="assinatura">Igor Daniel</p>
+              <h4>Conheça um pouco sobre mim:</h4>
+              <p>Olá me chamo Igor Daniel tenho 21 anos, moro no Rio de Janeiro. Sou universitário e estou cursando Análise e desenvolvimento de sistemas. Sou entusiasta e apaixonado por tecnologia e estou em busca da vaga de desenvolvedor front-and.
+              </p> <br />
+              <p>Ex militar do Exército Brasileiro fiz uma transição para a área da tecnologia, área que amo de fato e tenho prazer em aprender mais a cada dia.</p>
             </div>
           </div>
         </div >
