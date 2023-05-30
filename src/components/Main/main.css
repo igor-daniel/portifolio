@@ -2,6 +2,10 @@ main {
   background-color: #faf7ff;
 }
 
+.main-sec strong {
+  color: #5e17eb;
+}
+
 .limite {
   width: 85%;
   margin: auto;

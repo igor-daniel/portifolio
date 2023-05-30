@@ -1,20 +1,15 @@
-.footer-content {
+footer {
+  color: #e4d2fb;
+  height: 70px;
+  background-color: #5e17eb;
+  text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  font-size: 19px;
 }
 
-footer .info {
-  font-family: 'Righteous', cursive;
-  font-size: 20px;
-  padding: 20px 0;
-}
-
-footer .info a {
-  text-decoration: underline;
-}
-
-footer .icones img {
-  width: 40px;
-  padding: 10px;
+footer a {
+  color: #290967;
+  text-transform: uppercase;
 }
