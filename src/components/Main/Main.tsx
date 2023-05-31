@@ -10,7 +10,7 @@ export const Main = () => {
             <p className='cargo'>Web Developer</p>
             <h1>Olá eu sou Igor Daniel <strong>.</strong></h1>
             <p>Um desenvolvedor Web Frontend, apaixonado por <br /> tecnologia, especialista em criação de sites</p>
-            <a className='botao' href="#">Fale comigo</a>
+            <a className='botao' href="https://www.linkedin.com/in/igor-daniel-8bbb74216/">Fale comigo</a>
           </section>
           <section className="image" data-tilt="">
             <img data-tilt src={programer} alt="Foto de Igor" />

@@ -21,19 +21,19 @@ export const Contato = () => {
           <div className="redes">
             <div className="rede">
               <img src={casa} alt="" />
-              <a href="#">https://igor-daniel.github.io/portifolio/</a>
+              <a href="https://igor-daniel.github.io/portifolio/" target="blank">https://igor-daniel.github.io/portifolio/</a>
             </div>
             <div className="rede">
               <img src={git} alt="" />
-              <a href="#">https://github.com/igor-daniel</a>
+              <a href="https://github.com/igor-daniel" target="blank">https://github.com/igor-daniel</a>
             </div>
             <div className="rede">
               <img src={carta} alt="" />
-              <a href="#">igord1870@gmail.com</a>
+              <a href="mailto:igord1870@gmail.com" target="blank">igord1870@gmail.com</a>
             </div>
             <div className="rede">
               <img src={linkedin} alt="" />
-              <a href="#">https://acesse.one/aUfRc</a>
+              <a href="https://www.linkedin.com/in/igor-daniel-8bbb74216/" target="blank">https://www.linkedin.com/in/igor-daniel-8bbb74216/</a>
             </div>
           </div>
         </div>

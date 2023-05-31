@@ -13,7 +13,7 @@ export const Sobre = () => {
           <div className="sec-body sobre-content">
             <div className="sobre-img">
               <img src={Foto} alt="Foto de Igor" />
-              <a href="#" className='botao'>Currículo</a>
+              <a href="https://mega.nz/file/3sYXlL7R#punD9md7-llzi_LrPSpf6iHNRfzBjxT7umi9euPCK4I" target="blank" className='botao'>Currículo</a>
             </div>
             <div className="sobre-info--historia">
               <h4>Conheça um pouco sobre mim:</h4>
