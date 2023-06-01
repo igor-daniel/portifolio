@@ -40,6 +40,11 @@
   height: 40px;
   margin-top: 20px;
   border: solid 2px #5e17eb;
+  transition: 500ms linear;
+}
+
+.botao-card:hover {
+  border: solid 4px #5e17eb;
 }
 
 .botao-card .txt {

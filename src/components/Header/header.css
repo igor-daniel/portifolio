@@ -36,12 +36,12 @@ header {
   font-weight: 500;
 }
 
-.hamburguer {
+/* .hamburguer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 80px;
-}
+} */
 
 .menu {
   display: flex;
@@ -59,9 +59,18 @@ header {
   font-size: 23px;
 }
 
+
+
 .menu a {
   color: #1d0351;
   text-transform: uppercase;
+  transition: 100ms linear;
+  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+
+}
+
+.menu a:hover {
+  border-bottom: 2px solid #5f15ed;
 }
 
 /* 
