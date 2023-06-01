@@ -4,10 +4,18 @@
   flex-wrap: wrap;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .tool {
   margin: 40px 0;
   position: relative;
   display: inline-block;
+}
+
+.tool img {
+  width: 200px;
 }
 
 .tool .tool-text {

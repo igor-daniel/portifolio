@@ -47,6 +47,45 @@
   color: #4d2d8b;
 }
 
+@media(max-width: 850px) {
+  .sec-tittle h2 {
+    margin-left: 10px;
+    font-size: 30px;
+  }
+
+  .sec-tittle img {
+    width: 20px;
+  }
+
+  .sobre-content {
+    margin-top: 10px;
+  }
+
+  .sobre-img img {
+    width: 200px;
+  }
+
+  .sobre-img a {
+    padding: 10px 50px;
+  }
+
+  .sobre-info--historia {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .sobre-info--historia h4 {
+    font-size: 20px;
+  }
+
+  .sobre-info--historia p {
+    font-size: 14px;
+  }
+
+  .botao {
+    margin-top: 25px;
+  }
+}
 
 @media(max-width: 500px) {
   .sobre-content {

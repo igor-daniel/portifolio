@@ -57,6 +57,33 @@ main {
   width: 500px;
 }
 
+@media(max-width: 850px) {
+  .limite {
+    width: 90%;
+  }
+
+  .conteudo {
+    padding-top: 25px;
+  }
+
+  .image img {
+    width: 300px;
+  }
+
+  .main-sec .cargo {
+    font-size: 11px;
+    margin-top: 0;
+  }
+
+  .main-sec h1 {
+    font-size: 35px;
+  }
+
+  .main-sec p {
+    font-size: 14px;
+  }
+}
+
 @media(max-width: 500px) {
   .conteudo {
     flex-direction: column;

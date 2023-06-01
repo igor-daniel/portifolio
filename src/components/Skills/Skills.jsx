@@ -44,7 +44,7 @@ export const Skills = ()=>{
       <img id='rea' src={html} alt="React" />
       <span className='tool-text'>HTML</span>
     </div>
-    <div className='tool'>
+    <div className='tool d-flex'>
       <img id='rea' src={git} alt="React" />
       <span className='tool-text'>GIT</span>
     </div>

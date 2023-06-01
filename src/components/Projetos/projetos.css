@@ -66,3 +66,17 @@
   text-transform: uppercase;
   padding-left: 5px;
 }
+
+@media(max-width: 850px) {
+  .card {
+    width: 330px;
+  }
+
+  .card .text h4 {
+    font-size: 20px;
+  }
+
+  .card .text p {
+    font-size: 16px;
+  }
+}
