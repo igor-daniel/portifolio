@@ -14,10 +14,6 @@
   display: inline-block;
 }
 
-.tool img {
-  width: 200px;
-}
-
 .tool .tool-text {
   visibility: hidden;
   width: 120px;
@@ -37,4 +33,10 @@
 
 .tool:hover .tool-text {
   visibility: visible;
+}
+
+@media(max-width: 850px) {
+  .tool img {
+    width: 200px;
+  }
 }
