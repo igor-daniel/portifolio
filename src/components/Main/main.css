@@ -84,7 +84,7 @@ main {
   }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 420px) {
   .conteudo {
     flex-direction: column;
   }
@@ -105,7 +105,7 @@ main {
   }
 
   .image img {
-    width: 400px;
+    display: none;
   }
 
 }
