@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.483c051d.css",
-    "main.js": "/portifolio/static/js/main.d5524100.js",
+    "main.css": "/portifolio/static/css/main.48af10e2.css",
+    "main.js": "/portifolio/static/js/main.922b1a36.js",
     "static/js/787.be55e6d0.chunk.js": "/portifolio/static/js/787.be55e6d0.chunk.js",
     "static/media/Foto-icon.svg": "/portifolio/static/media/Foto-icon.94f1f64eafaf3ad24131bce32e57df13.svg",
     "static/media/FotoSobre.svg": "/portifolio/static/media/FotoSobre.7d1c785ba0f95f67dea133e63e5e1d0f.svg",
@@ -23,12 +23,13 @@
     "index.html": "/portifolio/index.html",
     "static/media/casa.svg": "/portifolio/static/media/casa.17e47e41e01007683fea430deddb8f21.svg",
     "static/media/adereço.svg": "/portifolio/static/media/adereço.984947661181ad788b6ac00d742cb819.svg",
-    "main.483c051d.css.map": "/portifolio/static/css/main.483c051d.css.map",
-    "main.d5524100.js.map": "/portifolio/static/js/main.d5524100.js.map",
+    "static/media/hambu.svg": "/portifolio/static/media/hambu.71b2da0b48d2acf8ee62b33da1a32ce8.svg",
+    "main.48af10e2.css.map": "/portifolio/static/css/main.48af10e2.css.map",
+    "main.922b1a36.js.map": "/portifolio/static/js/main.922b1a36.js.map",
     "787.be55e6d0.chunk.js.map": "/portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.483c051d.css",
-    "static/js/main.d5524100.js"
+    "static/css/main.48af10e2.css",
+    "static/js/main.922b1a36.js"
   ]
 }
