@@ -40,3 +40,9 @@
     width: 200px;
   }
 }
+
+@media(max-width: 420px) {
+  .tool img {
+    width: 110px;
+  }
+}

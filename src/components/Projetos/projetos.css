@@ -80,3 +80,13 @@
     font-size: 16px;
   }
 }
+
+@media(max-width: 420px) {
+  .projetos-body {
+    justify-content: center;
+  }
+
+  .card .text h4 {
+    font-size: 20px;
+  }
+}
