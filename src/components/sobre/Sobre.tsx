@@ -17,9 +17,9 @@ export const Sobre = () => {
             </div>
             <div className="sobre-info--historia">
               <h4>Conheça um pouco sobre mim:</h4>
-              <p>Olá me chamo Igor Daniel tenho 21 anos, moro no Rio de Janeiro. Sou universitário e estou cursando Análise e desenvolvimento de sistemas. Sou entusiasta e apaixonado por tecnologia e estou em busca da vaga de desenvolvedor front-and.
+              <p>Olá me chamo Igor Daniel, tenho 21 anos e moro no Rio de Janeiro. Sou universitário e estou cursando Análise e desenvolvimento de sistemas. Sou entusiasta e apaixonado por tecnologia e estou em busca da vaga de desenvolvedor front-and.
               </p> <br />
-              <p>Ex militar do Exército Brasileiro fiz uma transição para a área da tecnologia, área que amo de fato e tenho prazer em aprender mais a cada dia.</p>
+              <p>Ex-militar do Exército Brasileiro, fiz uma transição para a área da tecnologia, área que amo de fato e tenho prazer em aprender mais e mais a cada dia.</p>
             </div>
           </div>
         </div >

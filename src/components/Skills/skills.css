@@ -39,10 +39,25 @@
   .tool img {
     width: 200px;
   }
+
+  .d-flex img {
+    margin-top: 40px;
+
+  }
 }
 
 @media(max-width: 420px) {
   .tool img {
     width: 110px;
+  }
+
+  .d-flex img {
+    margin-top: 25px;
+  }
+}
+
+@media(max-width: 365px) {
+  .tool img {
+    width: 100px;
   }
 }

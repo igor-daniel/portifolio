@@ -21,7 +21,7 @@ export const Projetos = ()=>{
         </div>
         <div className="text">
           <h4>Gerador de Conselhos</h4>
-          <p>Com apenas um click você recebe um conselho. App construido apartir de um API
+          <p>Com apenas um click você recebe um conselho. App construido apartir de uma API.
           </p>
         </div>
         <div className="btns">
@@ -47,7 +47,7 @@ export const Projetos = ()=>{
         </div>
         <div className="text">
           <h4>Snap</h4>
-          <p>Desefio do site front-end-mentor, con o intuito de treinar programação.
+          <p>Desefio do site front-end-mentor, com o intuito de treinar programação.
           </p>
         </div>
         <div className="btns">
@@ -75,7 +75,7 @@ export const Projetos = ()=>{
         </div>
         <div className="text">
           <h4>Calculadora de IMC</h4>
-          <p>Colocando seu peso e sua altura obtenha seu indice de massa corporal.
+          <p>Colocando seu peso e sua altura obtenha seu indice de massa corporal(imc).
           </p>
         </div>
         <div className="btns">

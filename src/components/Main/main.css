@@ -40,6 +40,7 @@ main {
 .main-sec p {
   font-size: 17px;
   color: #34107b;
+  width: 500px;
   /* padding: 15px 0 20px 0; */
 }
 
@@ -81,6 +82,13 @@ main {
 
   .main-sec p {
     font-size: 14px;
+    width: 400px;
+  }
+}
+
+@media(max-width: 790px) {
+  .main-sec h1 {
+    font-size: 33px;
   }
 }
 
@@ -99,6 +107,7 @@ main {
   .main-sec p {
     font-size: 14px;
     padding: 0;
+    width: 330px;
   }
 
   .links a {
@@ -110,4 +119,20 @@ main {
     display: none;
   }
 
+}
+
+@media(max-width: 380px) {
+  .main-sec h1 {
+    font-size: 28px;
+  }
+}
+
+@media(max-width: 365px) {
+  .main-sec h1 {
+    font-size: 26px;
+  }
+
+  .main-sec p {
+    font-size: 13px;
+  }
 }

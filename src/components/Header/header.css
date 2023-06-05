@@ -141,3 +141,17 @@ header {
   }
 
 }
+
+@media(max-width: 920px) {
+  .logo {
+    padding: 20px 0 20px 60px;
+  }
+
+  .menu ul {
+    margin-right: 20px;
+  }
+
+  .menu li {
+    padding: 10px;
+  }
+}
