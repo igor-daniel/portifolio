@@ -102,13 +102,32 @@ header {
 
 @media(max-width: 420px) {
   .logo {
-    padding: 10px 0 10px 15px;
+    padding: 10px 0 10px 15px !important;
   }
 
   .logo img {
     width: 50px;
   }
 
+
+
+}
+
+@media(max-width: 920px) {
+  .logo {
+    padding: 20px 0 20px 60px;
+  }
+
+  .menu ul {
+    margin-right: 20px;
+  }
+
+  .menu li {
+    padding: 10px;
+  }
+}
+
+@media(max-width: 550px) {
   .menu ul {
     display: none;
   }
@@ -138,20 +157,5 @@ header {
     list-style: none;
     text-transform: uppercase;
     background-color: #faf7ff;
-  }
-
-}
-
-@media(max-width: 920px) {
-  .logo {
-    padding: 20px 0 20px 60px;
-  }
-
-  .menu ul {
-    margin-right: 20px;
-  }
-
-  .menu li {
-    padding: 10px;
   }
 }

@@ -22,12 +22,14 @@
   text-align: center;
   font-size: 23px;
   padding: 15px;
+  color: #120035;
 }
 
 .card .text p {
   padding: 0px 20px 10px 25px;
-  font-size: 20px;
+  font-size: 18px;
   height: 75px;
+  color: #4d2d8b;
 }
 
 .card .btns {
