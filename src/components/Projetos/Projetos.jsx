@@ -1,5 +1,6 @@
 import './projetos.css'
 import adereco from '../sobre/adereço.svg'
+import feane from './img/feaneHamb.png'
 import Pgerador from './img/geradorConselho.png'
 import snap from './img/snap.png'
 import iconGit from './img/ic-github.svg'
@@ -15,6 +16,32 @@ export const Projetos = ()=>{
             <h2>Projetos</h2>
           </div>
     <div className="projetos-body limite">
+    <div className="card">
+        <div className="img">
+          <img src={feane} alt="" />
+        </div>
+        <div className="text">
+          <h4>Feane Hamburgueria</h4>
+          <p>Um site constitucional, de uma empresa fictícia com intuito de evoluir minhas habilidades.
+          </p>
+        </div>
+        <div className="btns">
+          <a className='botao-card' target='_blank' href="https://courageous-pudding-8e2c46.netlify.app" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGlobe} alt="" />
+            <p>Site</p>
+            </div>
+            
+          </a>
+          <a className='botao-card' target='_blank'  href="https://github.com/igor-daniel/feane-hamburgueria" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGit} alt="" />
+            <p>Code</p>
+            </div>
+            
+          </a>
+        </div>
+      </div>
       <div className="card">
         <div className="img">
           <img src={Pgerador} alt="" />
@@ -25,14 +52,14 @@ export const Projetos = ()=>{
           </p>
         </div>
         <div className="btns">
-          <a className='botao-card'  href="https://comfy-strudel-e22f22.netlify.app/">
+          <a className='botao-card' target='_blank'  href="https://comfy-strudel-e22f22.netlify.app/" rel="noreferrer">
             <div className="txt">
             <img src={iconGlobe} alt="" />
             <p>Site</p>
             </div>
             
           </a>
-          <a className='botao-card'  href="https://github.com/igor-daniel/gerador-de-conselhos">
+          <a className='botao-card' target='_blank'  href="https://github.com/igor-daniel/gerador-de-conselhos" rel="noreferrer">
             <div className="txt">
             <img src={iconGit} alt="" />
             <p>Code</p>
@@ -51,14 +78,14 @@ export const Projetos = ()=>{
           </p>
         </div>
         <div className="btns">
-          <a className='botao-card'  href="https://sweet-madeleine-abfc99.netlify.app/">
+          <a className='botao-card' target='_blank'  href="https://sweet-madeleine-abfc99.netlify.app/" rel="noreferrer">
             <div className="txt">
             <img src={iconGlobe} alt="" />
             <p>Site</p>
             </div>
             
           </a>
-          <a  className='botao-card' href="https://github.com/igor-daniel/single-page">
+          <a  className='botao-card' target='_blank' href="https://github.com/igor-daniel/single-page" rel="noreferrer">
             <div className="txt">
             <img src={iconGit} alt="" />
             <p>Code</p>
@@ -79,14 +106,14 @@ export const Projetos = ()=>{
           </p>
         </div>
         <div className="btns">
-          <a className='botao-card'  href="https://kaleidoscopic-malasada-947d5e.netlify.app/">
+          <a className='botao-card' target='_blank' href="https://kaleidoscopic-malasada-947d5e.netlify.app/" rel="noreferrer">
             <div className="txt">
             <img src={iconGlobe} alt="" />
             <p>Site</p>
             </div>
             
           </a>
-          <a className='botao-card'  href="https://github.com/igor-daniel/Calculadora-IMC-react">
+          <a className='botao-card' target='_blank' href="https://github.com/igor-daniel/Calculadora-IMC-react" rel="noreferrer">
             <div className="txt">
             <img src={iconGit} alt="" />
             <p>Code</p>
