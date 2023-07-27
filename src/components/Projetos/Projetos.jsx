@@ -1,6 +1,7 @@
 import './projetos.css'
 import adereco from '../sobre/adereço.svg'
 import feane from './img/feaneHamb.png'
+import blog from './img/blog.png'
 import Pgerador from './img/geradorConselho.png'
 import snap from './img/snap.png'
 import iconGit from './img/ic-github.svg'
@@ -42,6 +43,63 @@ export const Projetos = ()=>{
           </a>
         </div>
       </div>
+
+      <div className="card">
+        <div className="img">
+          <img src={calcImc} alt="" />
+        </div>
+        <div className="text">
+          <h4>Calculadora de IMC</h4>
+          <p>Colocando seu peso e sua altura obtenha seu indice de massa corporal(imc).
+          </p>
+        </div>
+        <div className="btns">
+          <a className='botao-card' target='_blank' href="https://kaleidoscopic-malasada-947d5e.netlify.app/" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGlobe} alt="" />
+            <p>Site</p>
+            </div>
+            
+          </a>
+          <a className='botao-card' target='_blank' href="https://github.com/igor-daniel/Calculadora-IMC-react" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGit} alt="" />
+            <p>Code</p>
+            </div>
+            
+          </a>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="img">
+          <img src={blog} alt="" />
+        </div>
+        <div className="text">
+          <h4>Blog</h4>
+          <p>Um simples blog, feito com intuito de exercitar as habilidades.
+          </p>
+        </div>
+        <div className="btns">
+          <a className='botao-card' target='_blank' href="https://blogcode20.netlify.app" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGlobe} alt="" />
+            <p>Site</p>
+            </div>
+            
+          </a>
+          <a className='botao-card' target='_blank' href="https://github.com/igor-daniel/blog-code" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGit} alt="" />
+            <p>Code</p>
+            </div>
+            
+          </a>
+        </div>
+      </div>
+
+
+
       <div className="card">
         <div className="img">
           <img src={Pgerador} alt="" />
@@ -96,32 +154,10 @@ export const Projetos = ()=>{
       </div>
 
 
-      <div className="card">
-        <div className="img">
-          <img src={calcImc} alt="" />
-        </div>
-        <div className="text">
-          <h4>Calculadora de IMC</h4>
-          <p>Colocando seu peso e sua altura obtenha seu indice de massa corporal(imc).
-          </p>
-        </div>
-        <div className="btns">
-          <a className='botao-card' target='_blank' href="https://kaleidoscopic-malasada-947d5e.netlify.app/" rel="noreferrer">
-            <div className="txt">
-            <img src={iconGlobe} alt="" />
-            <p>Site</p>
-            </div>
-            
-          </a>
-          <a className='botao-card' target='_blank' href="https://github.com/igor-daniel/Calculadora-IMC-react" rel="noreferrer">
-            <div className="txt">
-            <img src={iconGit} alt="" />
-            <p>Code</p>
-            </div>
-            
-          </a>
-        </div>
-      </div>
+  
+
+      
+
     </div>
     </section>
     
