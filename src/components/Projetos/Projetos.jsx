@@ -1,5 +1,6 @@
 import './projetos.css'
 import adereco from '../sobre/adereço.svg'
+import jordanShoes from './img/JordanShoes.png'
 import feane from './img/feaneHamb.png'
 import blog from './img/blog.png'
 import Pgerador from './img/geradorConselho.png'
@@ -17,6 +18,32 @@ export const Projetos = ()=>{
             <h2>Projetos</h2>
           </div>
     <div className="projetos-body limite">
+    <div className="card">
+        <div className="img">
+          <img src={jordanShoes} alt="" />
+        </div>
+        <div className="text">
+          <h4>Jordan Shoes</h4>
+          <p>Uma landing page para divulgar o tênis da Nike em parceria com Michael Jordan.
+          </p>
+        </div>
+        <div className="btns">
+          <a className='botao-card' target='_blank' href="https://fastidious-kangaroo-81e091.netlify.app/" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGlobe} alt="" />
+            <p>Site</p>
+            </div>
+            
+          </a>
+          <a className='botao-card' target='_blank'  href="https://github.com/igor-daniel/jordanshoes" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGit} alt="" />
+            <p>Code</p>
+            </div>
+            
+          </a>
+        </div>
+      </div>
     <div className="card">
         <div className="img">
           <img src={feane} alt="" />
