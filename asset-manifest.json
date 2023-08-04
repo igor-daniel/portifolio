@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.3ccea640.css",
-    "main.js": "/portifolio/static/js/main.37d245a5.js",
+    "main.js": "/portifolio/static/js/main.81ecc283.js",
     "static/js/787.be55e6d0.chunk.js": "/portifolio/static/js/787.be55e6d0.chunk.js",
     "static/media/Foto-icon.svg": "/portifolio/static/media/Foto-icon.edabf3748869be911581750a078ad04d.svg",
     "static/media/FotoSobre.svg": "/portifolio/static/media/FotoSobre.797039e5ce96e1c0263f48cb37174224.svg",
     "static/media/feaneHamb.png": "/portifolio/static/media/feaneHamb.30765d93f7364203097b.png",
+    "static/media/JordanShoes.png": "/portifolio/static/media/JordanShoes.41f2123cba564186d770.png",
     "static/media/geradorConselho.png": "/portifolio/static/media/geradorConselho.3e7d9a0e6a13e9959af7.png",
     "static/media/snap.png": "/portifolio/static/media/snap.551c8ee04271b0c203ca.png",
     "static/media/blog.png": "/portifolio/static/media/blog.df3c4bda456b9a851591.png",
@@ -27,11 +28,11 @@
     "static/media/adereço.svg": "/portifolio/static/media/adereço.8a07f3716ed3027a59b9fb76a41e5958.svg",
     "static/media/hambu.svg": "/portifolio/static/media/hambu.47531b9c0f6501b96147247bbbf1c109.svg",
     "main.3ccea640.css.map": "/portifolio/static/css/main.3ccea640.css.map",
-    "main.37d245a5.js.map": "/portifolio/static/js/main.37d245a5.js.map",
+    "main.81ecc283.js.map": "/portifolio/static/js/main.81ecc283.js.map",
     "787.be55e6d0.chunk.js.map": "/portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ccea640.css",
-    "static/js/main.37d245a5.js"
+    "static/js/main.81ecc283.js"
   ]
 }
