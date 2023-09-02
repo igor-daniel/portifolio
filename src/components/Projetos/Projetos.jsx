@@ -5,6 +5,7 @@ import feane from './img/feaneHamb.png'
 import blog from './img/blog.png'
 import Pgerador from './img/geradorConselho.png'
 import snap from './img/snap.png'
+import orkut from './img/orkutPrint.png'
 import iconGit from './img/ic-github.svg'
 import iconGlobe from './img/wed.svg'
 import calcImc from './img/printImc.png'
@@ -18,6 +19,32 @@ export const Projetos = ()=>{
             <h2>Projetos</h2>
           </div>
     <div className="projetos-body limite">
+    <div className="card">
+        <div className="img">
+          <img src={orkut} alt="" />
+        </div>
+        <div className="text">
+          <h4>Orkut</h4>
+          <p>Uma cópia da antiga rede social Orkut.
+          </p>
+        </div>
+        <div className="btns">
+          <a className='botao-card' target='_blank' href="https://orkutfake.netlify.app/" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGlobe} alt="" />
+            <p>Site</p>
+            </div>
+            
+          </a>
+          <a className='botao-card' target='_blank'  href="https://github.com/igor-daniel?tab=repositories" rel="noreferrer">
+            <div className="txt">
+            <img src={iconGit} alt="" />
+            <p>Code</p>
+            </div>
+            
+          </a>
+        </div>
+      </div>
     <div className="card">
         <div className="img">
           <img src={jordanShoes} alt="" />
